@@ -1,0 +1,21 @@
+
+#include <io.h>
+#include <alcd.h>
+#include <delay.h>
+
+void main(void)
+{
+
+while (1)
+    {
+    lcd_init(16);
+    lcd_gotoxy(5,1);
+    lcd_putsf("hello");
+    delay_ms(600);
+    lcd_clear();
+
+
+
+
+    }
+}
